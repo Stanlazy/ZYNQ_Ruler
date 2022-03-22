@@ -1,0 +1,14 @@
+(footprint "MountingHole_PinHeader_2.54_3D" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61CF12A2)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d9cdb60a-ecfa-4866-ad81-ca393f637bae)
+  )
+  (fp_text value "MountingHole_PinHeader_2.54_3D" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 96d488aa-4d20-4ba2-8d75-10df5865e575)
+  )
+  (pad "1" thru_hole oval (at 0 0) (size 1.7 4) (drill oval 1 3) (layers *.Cu *.Mask) (tstamp 7f0652db-34e0-4fb2-8abe-37eb1d07dc0f))
+)

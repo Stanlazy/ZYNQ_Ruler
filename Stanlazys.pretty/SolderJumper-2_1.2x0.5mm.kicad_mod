@@ -1,0 +1,38 @@
+(footprint "SolderJumper-2_1.2x0.5mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61CC1F50)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 1.1) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp fd58021d-65db-4f18-ad67-2c0ce195818f)
+  )
+  (fp_text value "jmp" (at 0 -1.1) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a1ce7b13-6cea-4e4d-b1fc-ae94b7c789ca)
+  )
+  (pad "" smd rect (at 0 0) (size 1.2 0.5) (layers "F.Mask") (tstamp a0598a5d-dc47-4904-abe8-8f1f3a4d74a4))
+  (pad "1" smd custom (at -0.5 0) (size 0.1 0.1) (layers "F.Cu" "F.Mask")
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+          (xy 0.65 0)
+          (xy 0.15 0.25)
+          (xy -0.1 0.25)
+          (xy -0.1 -0.25)
+          (xy 0.15 -0.25)
+        ) (width 0) (fill yes))
+    ) (tstamp 168de5cf-7273-40a5-88eb-c5c49222af35))
+  (pad "2" smd custom (at 0.5 0) (size 0.1 0.1) (layers "F.Cu" "F.Mask")
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+          (xy 0.1 0.25)
+          (xy -0.6 0.25)
+          (xy -0.1 0)
+          (xy -0.6 -0.25)
+          (xy 0.1 -0.25)
+        ) (width 0) (fill yes))
+    ) (tstamp 575a0854-5dcc-419b-8647-e12fb23c41a1))
+)

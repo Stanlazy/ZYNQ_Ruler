@@ -1,0 +1,23 @@
+(footprint "little_arrow" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61CC1D1D)
+  (attr board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0bbf9571-8208-4728-bca6-e36e4dcb62f0)
+  )
+  (fp_text value "little_arrow" (at 0 -3) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a0780bef-3115-4bff-b13e-1b43b4e3ddfe)
+  )
+  (pad "" smd custom (at -0.1 0) (size 0.0001 0.0001) (layers "F.SilkS")
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+          (xy 0.1 0)
+          (xy -0.2 0.3)
+          (xy -0.2 -0.3)
+        ) (width 0) (fill yes))
+    ) (tstamp 9f0af3e4-5b9a-4e92-a459-772389cb956f))
+)

@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.9,
-          "width": 0.9
+          "drill": 0.5,
+          "height": 0.85,
+          "width": 0.85
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -395,8 +395,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../../../../../../../Desktop/som.step",
+      "vrml": "../../../../../../../Desktop/som.wrl"
     },
     "page_layout_descr_file": ""
   },
